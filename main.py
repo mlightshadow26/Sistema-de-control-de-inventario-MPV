@@ -11,6 +11,15 @@ bienvenida_label = tk.Label(
     ventana, text="Bienvenidos al Control de Inventario", font=('Consolas', 18))
 bienvenida_label.pack()
 
+
+# Variable de navegación
+pestana = ""
+# Funciones de navegación
+
+def materiales_nav(pestana):
+    if pestaña
+
+
 # Definición de los Botones principales del menú
 boton_materiales = tk.Button(ventana, text="Materiales", font=(
     'Consolas'), command=materiales.modulo_materiales)
@@ -21,6 +30,7 @@ boton_calcular = tk.Button(ventana, text="Calcular", font=(
 boton_inventario = tk.Button(ventana, text="Ver Inventario", font=(
     'Consolas'), command=inventario.modulo_inventario)
 
+# Definir botones de cada módulo
 # Botones menu Materiales
 
 # Botones menu Productos
@@ -29,6 +39,8 @@ boton_inventario = tk.Button(ventana, text="Ver Inventario", font=(
 
 # Botones menu Inventario
 
+
+# Ejecutar botones
 boton_materiales.pack()
 boton_productos.pack()
 boton_calcular.pack()
